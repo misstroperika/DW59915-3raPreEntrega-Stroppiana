@@ -39,7 +39,6 @@ header{
     font-style: normal;
     text-align: center;
     color: var(--colorBackground);
-
 }
 
 /*
@@ -71,7 +70,6 @@ header{
     font-family: var(--tipografiaPrincipal);
 }
 
-
 /*INDEX*/
 
 .indexsection{
@@ -82,7 +80,7 @@ header{
 .indexmainsection{
     grid-area: a1;
     width: 100%;
-    background-image: url(../mainimage.jpg);    
+    background-image: url(../img/mainimage.jpg);    
     background-position: center;
     background-size: cover;
 }
@@ -104,7 +102,7 @@ header{
 .indexsecondsection{
     grid-area: a2;
     width: 100%;
-    background-image: url(mainImage2.jpg);
+    background-image: url(../img/mainImage2.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -120,7 +118,7 @@ header{
 .indexthirdsection{
     grid-area: a3;
     width: 100%;
-    background-image: url(mainImage3.jpg);
+    background-image: url(../img/mainImage3.jpg);
 }
 
 .indexthirdsection__h2{
@@ -133,7 +131,7 @@ header{
 .indexfourthsection{
     grid-area: a4;
     width: 100%;
-    background-image: url(mainImage4.jpg);
+    background-image: url(../img/mainImage4.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -554,7 +552,7 @@ header{
         height: 30px;
     }
     .headerbaner__p{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /*index*/
@@ -746,10 +744,10 @@ header{
 
     /*header*/
     .headerbaner{
-        height: 40px;
+        height: 30px;
     }
     .headerbaner__p{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     /*index*/
@@ -826,15 +824,17 @@ header{
     /*tienda*/
 
     .mainproducto{
-        height: 1200px;
+        height: 1250px;
         grid-template-rows: 50% 50%;
         grid-template-columns: 30% 30% 30%;
-        row-gap: 30px;
+        row-gap: 20px;
         column-gap: 3%;
         grid-template-areas: "a1 a2 a3"
                             "a4 a5 a6";
         justify-content: space-evenly;
         align-content: space-evenly;
+        justify-items: center;
+        align-items: center;
     }
     .producto1__img{
         width: 400px;
