@@ -29,8 +29,7 @@ header {
 .headerbaner {
   background-color: var(--colorCuaternario);
 }
-
-.headerbaner__p {
+.headerbaner p {
   font-family: var(--tipografiaSecundaria);
   font-weight: 100;
   font-style: normal;
@@ -60,7 +59,8 @@ header {
 }
 */
 #navmadretierra {
-  background-color: var(--colorSecundario) !important;
+  background-image: linear-gradient(to right, #EC940F, pink) !important;
+  background-color: var(--colorSecundario);
 }
 
 .nav_link {

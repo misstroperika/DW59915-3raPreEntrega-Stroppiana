@@ -30,16 +30,19 @@ header{
 }
 
 .headerbaner{
-    background-color:var(--colorCuaternario)
+    background-color:var(--colorCuaternario);
+    p{
+        font-family:var(--tipografiaSecundaria);
+        font-weight: 100;
+        font-style: normal;
+        text-align: center;
+        color: var(--colorBackground);
+    }
 }
 
-.headerbaner__p{
-    font-family:var(--tipografiaSecundaria);
-    font-weight: 100;
-    font-style: normal;
-    text-align: center;
-    color: var(--colorBackground);
-}
+
+
+    
 
 /*
 .headernav{
@@ -64,7 +67,9 @@ header{
 */
 
 #navmadretierra{
-    background-color: var(--colorSecundario) !important;
+    background-image: linear-gradient(to right,#EC940F,pink)!important;
+    background-color: var(--colorSecundario);
+    
 }
 .nav_link{
     font-family: var(--tipografiaPrincipal);
